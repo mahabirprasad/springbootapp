@@ -1,0 +1,10 @@
+package com.mahwir2;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Interfe i = new Demo();
+		i.add(10, 20);
+	}
+
+}

@@ -1,0 +1,21 @@
+package com.example.demo;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+
+@RestController
+public class WElcomeSvc {
+	@GetMapping("/welcome")
+	public String welcomeMsg() {
+		String welcomeResponse = "Hi this is mahwir here....";
+		String greetUrl = "http://localhost:2222/greet";
+		RestTemplate rt = new RestTemplate();
+		ResponseEntity<String> forEntity = rt.getForEntity(greetUrl, String.class);
+		String greetResponse = forEntity.getBody();
+		String finalResponse = welcomeResponse + " " + greetResponse;
+		return finalResponse;
+	}
+
+}

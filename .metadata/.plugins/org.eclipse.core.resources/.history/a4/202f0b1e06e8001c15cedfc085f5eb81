@@ -1,0 +1,5 @@
+package com.mahwir3;
+
+public interface Interfe {
+
+}

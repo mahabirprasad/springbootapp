@@ -1,0 +1,11 @@
+package com.mahwir5;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Interfe i = s->s.length();
+		System.out.println(i.getStringlen("hello Bapi"));
+		System.out.println(i.getStringlen("Hello Mahwir"));
+	}
+
+}

@@ -1,0 +1,7 @@
+package com.mahwir3;
+
+public interface Interfe {
+	
+	public void sum(int a, int b);
+
+}

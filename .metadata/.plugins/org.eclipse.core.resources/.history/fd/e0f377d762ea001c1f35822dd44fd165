@@ -1,0 +1,16 @@
+package com.mahwir;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class CustomizedList {
+
+	public static void main(String[] args) {
+		ArrayList<Employee> al = new ArrayList<Employee>();
+		al.add(new Employee(121, "mahwir"));
+		al.add(new Employee(122, "ram"));
+		al.add(new Employee(123, "hari"));
+		Collections.sort(al,(e1,e2)->(e1.eno>e2.eno)?-1:(e1.eno<e2.eno)?1:0);
+	}
+
+}

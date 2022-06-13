@@ -1,0 +1,11 @@
+package com.mahwir4;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Interfe i = new Demo();
+		System.out.println(i.getStringLen("Hello"));
+		System.out.println(i.getStringLen("Mahwir"));
+	}
+
+}

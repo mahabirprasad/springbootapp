@@ -1,0 +1,13 @@
+package com.mahwir;
+
+public class Demo implements Interfe{
+
+	@Override
+	public void m1() 		{
+		System.out.println("Normal interface");
+	
+	}
+	
+	
+
+}

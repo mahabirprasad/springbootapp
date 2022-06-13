@@ -1,0 +1,10 @@
+package com.mahwir;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Interfe i = s->s.length();
+		i.getLen("mahwir")
+	}
+
+}

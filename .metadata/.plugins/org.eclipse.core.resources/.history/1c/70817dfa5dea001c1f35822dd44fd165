@@ -1,0 +1,7 @@
+package com.mahwir;
+
+public class Interfe {
+	
+	public void m1();
+
+}

@@ -1,0 +1,5 @@
+package com.mahwir4;
+
+public class Demo implements Interfe {
+
+}

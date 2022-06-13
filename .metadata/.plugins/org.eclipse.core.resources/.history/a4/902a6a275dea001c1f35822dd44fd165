@@ -1,0 +1,7 @@
+package com.mahwir4;
+
+public interface Interfe {
+	
+	public int getStringLen(String S);
+
+}

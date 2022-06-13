@@ -1,0 +1,11 @@
+package com.mahwir4;
+
+public class Demo implements Interfe {
+
+	@Override
+	public int getStringLen(String S) {
+		// TODO Auto-generated method stub
+		return S.length();
+	}
+
+}

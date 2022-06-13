@@ -1,0 +1,7 @@
+package com.mahwir;
+
+public class interf {
+default void m1() {
+	System.out.println("default method");
+}
+}

@@ -1,0 +1,11 @@
+package com.mahwir1;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		Interfe i = () -> System.out.println("functional interface with lambda expression");
+		i.m1();
+	}
+
+}

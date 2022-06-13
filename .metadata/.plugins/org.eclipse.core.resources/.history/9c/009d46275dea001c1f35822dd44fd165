@@ -1,0 +1,7 @@
+package com.mahwir5;
+
+public interface Interfe {
+	
+	public int getStringlen(String s);
+
+}

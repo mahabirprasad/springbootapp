@@ -1,0 +1,6 @@
+package com.mahwir;
+
+public interface Interfe {
+	
+	public int getLen(int x);
+}

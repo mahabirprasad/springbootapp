@@ -1,0 +1,11 @@
+package com.mahwir;
+
+public class Demo implements Interfe{
+
+	public void m1(){
+		System.out.println("Normal interface without lambda expression");
+	}
+	
+	
+
+}

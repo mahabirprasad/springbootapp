@@ -1,0 +1,6 @@
+package com.mahwir6;
+
+public interface Interfe {
+
+	public int square(int x);
+}

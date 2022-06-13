@@ -1,0 +1,10 @@
+package com.mahwir3;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Interfe i = (a,b) -> System.out.println("The sum" + (a + b));
+		i.sum(10, 40);
+	}
+
+}

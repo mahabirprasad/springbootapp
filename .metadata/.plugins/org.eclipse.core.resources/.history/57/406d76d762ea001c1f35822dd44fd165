@@ -1,0 +1,20 @@
+package com.mahwir;
+
+public class Employee {
+
+	private Integer eno;
+	private String name;
+
+	public Employee(Integer eno, String name) {
+		super();
+		this.eno = eno;
+		this.name = name;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [eno=" + eno + ", name=" + name + "]";
+	}
+	
+
+}

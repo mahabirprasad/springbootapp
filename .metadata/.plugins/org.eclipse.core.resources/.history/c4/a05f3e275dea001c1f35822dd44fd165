@@ -1,0 +1,11 @@
+package com.mahwir6;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Interfe i = x->x*x;
+		System.out.println(i.square(2));
+		System.out.println(i.square(4));
+	}
+
+}
